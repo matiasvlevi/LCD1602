@@ -26,9 +26,5 @@ if len(arg) == 1:
 else:
     if len(arg) == 2:
         arg.extend([""])
-
-    try:
-        write(arg[1],arg[2])
-    except:
-        print("Error trying to display strings on LCD screen")
-        quit()
+        
+    write(arg[1],arg[2])
