@@ -1,5 +1,5 @@
-# LCD1602 Python Bindings for Raspberry PI
-
+# LCD1602
+Python3 Bindings for Raspberry PI
 
 <br/><br/>
 
