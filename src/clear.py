@@ -1,4 +1,4 @@
-!# /usr/bin/env python
+#! /usr/bin/env python
 from module import LCD1602 as LCD
 
 try:
