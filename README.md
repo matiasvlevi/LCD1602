@@ -11,7 +11,8 @@ sudo usermod -a -G gpio your_username
 Enable I2C in raspi-config:
 
 ```sh
-sudo raspi-config #Interface Options > I2C > Enable(Yes)
+sudo raspi-config
+# Interface Options > I2C > Enable(Yes)
 ```
 
 Setup shell aliases: <br/>
