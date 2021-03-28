@@ -1,11 +1,14 @@
 !# /usr/bin/env python
-
+from module import LCD1602 as LCD
 import sys
-import ..LCD1602 as LCD
 
 arg = sys.argv
 
-LCD.init(0x27, 1)
+try:
+    LCD.init(0x27, 1)
+except:
+    print("Error loading LCD1602 screen. Try changing the screen adress.")
+    print("You can see your LCD adress with 'i2cdetect -y 1'.")
 
 def write(line1,line2):
     if len(line1) > 16 or len(line2) > 16:
@@ -24,4 +27,8 @@ else:
     if len(arg) == 2:
         arg.extend([""])
 
-    write(arg[1],arg[2])
+    try:
+        write(arg[1],arg[2])
+    except:
+        print("Error trying to display strings on LCD screen")
+        quit()

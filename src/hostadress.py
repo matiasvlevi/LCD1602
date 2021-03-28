@@ -1,5 +1,5 @@
 !# /usr/bin/env python
-import ..LCD1602 as LCD
+from module import LCD1602 as LCD
 import socket
 
 def get_ip():
@@ -18,5 +18,12 @@ def display():
     LCD.write(0,0,"WLAN0:")
     LCD.write(0,1,get_ip())
 
-display()
+
+
+try:
+    display()
+    print("Successfully displayed Wlan0 ip on lcd srceen!")
+except:
+    print("Error trying to display Wlan0 ip on lcd srceen...")
+
 quit()
