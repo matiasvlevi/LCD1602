@@ -3,7 +3,21 @@ Python3 Bindings for Raspberry PI.
 
 <br/><br/>
 
-## Setup
+
+## Hardware Setup
+
+Connect pins to the rPI:
+
+```
+GND --- to ----> GND
+VCC --- to ----> 5V
+SDA --- to ----> GPIO2
+SCL --- to ----> GPIO3
+```
+
+<br/>
+
+## Software Setup
 Enable Raspberry PI's GPIO pins:
 ```sh
 sudo usermod -a -G gpio your_username
