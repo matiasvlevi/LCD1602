@@ -9,10 +9,11 @@ Python3 Bindings for Raspberry PI.
 Connect pins to the rPI:
 
 ```
-GND --- to ----> GND
-VCC --- to ----> 5V
-SDA --- to ----> GPIO2
-SCL --- to ----> GPIO3
+LCD1602        Raspberry PI
+  GND --- to ----> GND
+  VCC --- to ----> 5V
+  SDA --- to ----> GPIO2
+  SCL --- to ----> GPIO3
 ```
 
 <br/>
