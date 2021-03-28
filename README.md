@@ -1,5 +1,5 @@
 # LCD1602
-Python3 Bindings for Raspberry PI
+Python3 Bindings for Raspberry PI.
 
 <br/><br/>
 
@@ -18,7 +18,7 @@ sudo raspi-config
 Setup shell aliases: <br/>
 ```sh
 # LCD1602/
-sh alias.sh
+source alias.sh
 # Aliases set to path /home/pi/LCD1602/src/
 # Modify to set your own path if different.
 ```
