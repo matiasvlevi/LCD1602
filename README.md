@@ -19,10 +19,18 @@ LCD1602        Raspberry PI
 <br/>
 
 ## Software Setup
+
+
+<br/>
+
 Enable Raspberry PI's GPIO pins:
 ```sh
 sudo usermod -a -G gpio your_username
 ```
+
+
+<br/>
+
 Enable I2C in raspi-config:
 
 ```sh
@@ -30,24 +38,18 @@ sudo raspi-config
 # Interface Options > I2C > Enable(Yes)
 ```
 
-Setup shell aliases: <br/>
-```sh
-# LCD1602/
-source alias.sh
-# Aliases set to path /home/pi/LCD1602/src/
-# Modify to set your own path if different.
-```
-
-
 
 <br/>
 
-## Install dependencies
-
+Setup shell aliases & install requirements: <br/>
 ```sh
 # LCD1602/
-sudo pip3 install -r requirements.txt
+source setup.sh
 ```
+Aliases set to path `/home/pi/LCD1602/src/` <br/>
+Modify `/bash/alias.sh` to set your own path.
+
+
 
 <br/><br/>
 
