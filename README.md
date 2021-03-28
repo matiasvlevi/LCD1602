@@ -46,7 +46,7 @@ Setup shell aliases & install requirements: <br/>
 # LCD1602/
 source setup.sh
 ```
-Aliases set to path `/home/pi/LCD1602/src/` <br/>
+Aliases set to path `/home/pi/LCD1602/src/`. <br/>
 Modify `/bash/alias.sh` to set your own path.
 
 
