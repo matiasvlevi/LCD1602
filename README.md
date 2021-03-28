@@ -3,7 +3,7 @@
 
 <br/><br/>
 
-#### Setup
+### Setup
 Enable Raspberry PI's GPIO pins:
 ```sh
 sudo usermod -a -G gpio your_username
@@ -27,7 +27,7 @@ sh alias.sh
 
 <br/>
 
-#### Install dependencies
+### Install dependencies
 
 ```sh
 # LCD1602/
@@ -36,7 +36,7 @@ sudo pip3 install -r requirements.txt
 
 <br/><br/>
 
-#### Usage
+### Usage
 
 <br/>
 
@@ -63,7 +63,7 @@ lcdhost
 
 <br/><br/>
 
-#### Usage (No alias)
+### Usage (No alias)
 
 <br/>
 
