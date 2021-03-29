@@ -17,9 +17,7 @@ def display():
     LCD.init(0x27, 1)
     LCD.write(0,0,"WLAN0:")
     LCD.write(0,1,get_ip())
-
-
-
+    
 try:
     display()
     print("Successfully displayed Wlan0 ip on lcd srceen!")
