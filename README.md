@@ -1,5 +1,5 @@
 # LCD1602
-Python3 Bindings for Raspberry PI.
+Python3 & Shell Bindings for 16 characters x 2 row LCD screen with the Raspberry PI.
 
 <br/><br/>
 
